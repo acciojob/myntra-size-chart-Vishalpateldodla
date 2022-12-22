@@ -8,18 +8,26 @@
     <style>
         table{
             border-collapse: collapse;
-            margin: 30px;
+            margin: 0px;
         }
-        td, th{
+        td{
             border: 1px solid black;
-            padding: 3px 80px;
-            text-align: center;
+            width: 100px;
+            text-align: right;
         }
+        th{
+            border:1px solid black;
+            width: 100px;
+            text-align: left;
+        }
+
         .t1{
             background-color: rgb(172, 81, 81);
+            color: white;
         }
         .t2{
             background-color: lightcoral;
+            color: white;
         }
         .t3{
             background-color: lightpink;
@@ -41,7 +49,7 @@
         </thead>
         <tbody>
         <tr class="t2">
-            <td>Waist</td>
+            <td style="text-align: left;">Waist</td>
             <td>25</td>
             <td>28</td>
             <td>30</td>
@@ -49,7 +57,7 @@
             <td>32</td>
         </tr>
         <tr class="t3">
-            <td>Chest</td>
+            <td style="text-align: left;">Chest</td>
             <td>25</td>
             <td>28</td>
             <td>30</td>
@@ -57,7 +65,7 @@
             <td>32</td>
         </tr>
         <tr class="t4">
-            <td>Sleeve</td>
+            <td style="text-align:left">Sleeve</td>
             <td>25</td>
             <td>28</td>
             <td>30</td>
